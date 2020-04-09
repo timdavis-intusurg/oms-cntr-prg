@@ -1,0 +1,19 @@
+void setup(){
+}
+void Functiontotriggervalves() {
+//Script to switch the valves
+}
+void Functiontotriggerlatch(){
+//Script to trigger the latch
+}
+int t = 0;
+void loop() {
+delay(1000); //Wait one second
+if (t==5){
+Functiontotriggervalves(); //On the fifth second
+t=0;
+}
+Functiontotriggerlatch();
+t+=1;
+}
+
